@@ -135,7 +135,7 @@ morning, cross-reference it against your world, and bubble up what matters.
 
 The workshop paths:
 
-1. **Recommended default:** [Daily Intelligence Agent](../examples/prompts/daily-intelligence-agent.md)
+1. **Recommended default:** [Daily Intelligence Agent](/examples/prompts/daily-intelligence-agent.md)
    - For morning reports over news, tools, releases, CVEs, newsletters, events,
      metrics, or other sources you care about.
    - This is the path we will elaborate on below, with exact prompts to paste.
@@ -143,14 +143,14 @@ The workshop paths:
 The alternatives are general guides, not scripts — each gives you the pattern, the
 ingredients of a good prompt, and links to the official docs. You drive:
 
-2. [Homelab / Production Health Agent](../examples/prompts/homelab-health.md)
+2. [Homelab / Production Health Agent](/examples/prompts/homelab-health.md)
    - For read-only summaries of machines, services, disk, memory, logs, or app
      health.
 
-3. [Incident Triage Agent](../examples/prompts/alert-triage.md)
+3. [Incident Triage Agent](/examples/prompts/alert-triage.md)
    - For turning alert webhooks into human triage summaries.
 
-4. [ChatOps Over Your Data](../examples/prompts/chatops-data.md)
+4. [ChatOps Over Your Data](/examples/prompts/chatops-data.md)
    - For asking questions over approved local docs, CSVs, SQLite databases,
      metrics exports, or team knowledge.
 
@@ -158,7 +158,7 @@ ingredients of a good prompt, and links to the official docs. You drive:
 
 Open the project page on GitHub and copy the kickoff prompt from it:
 
-[examples/prompts/daily-intelligence-agent.md](../examples/prompts/daily-intelligence-agent.md)
+[examples/prompts/daily-intelligence-agent.md](/examples/prompts/daily-intelligence-agent.md)
 
 The kickoff prompt tells Hermes to fetch the template skill straight from this
 repo, install it locally, and bootstrap it: Hermes interviews you (four short
@@ -168,7 +168,7 @@ filled in as the example; the bootstrap replaces it with yours.
 
 The template skill, if you want to read it first:
 
-[examples/skills/daily-intelligence-report/SKILL.md](../examples/skills/daily-intelligence-report/SKILL.md)
+[examples/skills/daily-intelligence-report/SKILL.md](/examples/skills/daily-intelligence-report/SKILL.md)
 
 The project page also contains:
 
