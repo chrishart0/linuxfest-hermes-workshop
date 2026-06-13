@@ -1,0 +1,30 @@
+# Node / tooling
+node_modules/
+npm-debug.log*
+.npm/
+
+# Rendered slide artifacts (regenerate with: npm run render)
+dist/
+*.local.html
+
+# Hermes / agent local state — never commit secrets or machine state
+.hermes/
+hermes.log
+*.env
+.env
+.env.*
+!.env.example
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Scratch space for live-demo output
+scratch/
+demo-output/
+test-runs/
+
+CLAUDE.md
